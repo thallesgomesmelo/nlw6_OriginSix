@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+ul {
+  list-style: none;
+}
+
 a {
   text-decoration: none;
 }
@@ -125,6 +129,14 @@ nav {
 
 nav ul li {
   text-align: center;
+}
+
+nav ul li a {
+  transition: color 0.3s
+}
+
+nav ul li a:hover {
+  color: var(--base-color);
 }
 
 nav .menu {
